@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+           #regdiv {
+            height: 40px;
+            width: 150px;
+            border: none;
+            font-size: 20px;
+            background-color: #d5a249;
+            color: white;
+            margin-left: 50px;
+            margin-top: 15px;
+        }
+        #password{
+            height: 40px;
+            width: 300px;
+            border-color: gray;
+            margin-left: 50px;
+            outline: none;
+            font-size: 20px;
+        }
+        #ajiodiv {
+            height: 600px;
+            width: 400px;
+            margin-left: 550px;
+            margin-top: 100px;
+        }
+        #lablediv {
+            margin-left: 50px;
+        }
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div  id="ajiodiv">
+     <h1 id="lablediv">set new password</h1>
+     <input id="password" placeholder="enter your email" type="password"> <br>
+    <p id="lablediv">submit your email to verify you are already user</p> <br>
+    <button id="regdiv" onclick="newPassword()">submit</button>
+   </div>
+
+    <script src="./server.js"></script>
+</body>
+</html>
